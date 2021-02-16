@@ -11,7 +11,7 @@ namespace RestWithASPNetUdemy.Services.Implementations
     {
         private volatile int count;
 
-        public IPersonService Create(IPersonService person)
+        public Person Create(Person person)
         {
             
             return person;
